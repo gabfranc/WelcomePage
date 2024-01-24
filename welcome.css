@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body{
+  display:flex;
+  background: linear-gradient(to left, #fdbfbf, #fbf, #a3f4);
+  margin: 0;
+  padding:0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Dosis', sans-serif;
+}
+
+section{
+  position: fixed;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  flex-direction: column-reverse;
+  justify-content: center;
+  background: linear-gradient(to left, #a48cf2, #f693ff, #9caceb);
+  height: 90vh;
+  width: 90vh;
+  border-radius: 10vh;
+  line-height: 25px;
+
+}
+
+section a{
+  text-decoration: none;
+  color:#1e0081;
+  font-weight: 500;
+}
+
+section a:active{
+  display: block;
+  color:#173f9c;
+  font-weight: 500;
+}
+
+section:hover{
+  color:#6f45f9;
+  background: linear-gradient(to left, #c7b6ff, #d171da, #869df9);
+  font-weight: bold;
+  transform: scale(0.9);
+  transition: transform 0.4s ease-in-out;
+}
+
+article{
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  overflow: hidden;  
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  margin: 15vh;
+}
+
+article img{
+  height: 45vh;
+  width: 45vh;
+  border-radius: 10px;
+  object-fit: cover;
+  overflow: hidden;
+  justify-content: center;
+  align-content: flex-start;
+  position: relative;
+}
+
+h1{
+  flex: none;
+  font-size: 30px;
+  margin-top: -28vh;
+  margin-left: -165px;
+  font-weight: bold;
+  position: fixed;
+  display: block;
+  text-align: center;
+  justify-items:flex-start;
+  color:rgb(3, 3, 106);
+  text-shadow: 3px 3px 2px rgb(153, 153, 255);
+  width: 45vh;
+  height: 10vh;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 55px;
+  transform: rotate(-90deg);
+
+}
+
+.paragraph p{
+  margin-top: 5px;
+}
+
+
+
